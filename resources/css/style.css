@@ -10,7 +10,8 @@
   margin: auto;
   height: 100px;
   position: fixed;
-  width: 99%;
+  width: 100%;
+  top: 0;
 }
 .logo {
   display: inline-flex;
@@ -20,13 +21,21 @@
 .logotxt {
   margin-left: 20px;
 }
+#nav {
+  display: inline-flex;
+  margin-right: 20px;
+}
 h1 {
   color: MediumAquamarine;
   font-size: 14px;
 }
+h3 {
+  font-size: 30px;
+}
 ul li {
   display: inline-block;
   text-decoration: underline;
+  margin: 10px;
 }
 p {
   font-family: Georgia;
@@ -81,7 +90,6 @@ p {
   color: white;
   height: 300px;
   width: 300px;
-
 }
 .c1r5 {
   width: 300px;
@@ -118,6 +126,9 @@ p {
 .c2r2,
 .c2r3 {
 
+}
+.c2r1 {
+  margin-bottom: 30px;
 }
 .c2r2 {
   display: flex;
